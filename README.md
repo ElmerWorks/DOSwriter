@@ -13,6 +13,16 @@
 
 **Use DOSwriter to capture and organize your thoughts on your Android device for later computer formatting with publishing software.**
 
+<br>
+
+## **Download Android DOSwriter installation APK :**
+
+**DOSwriter is currently distributed as a free APK while the project is under active development.**
+
+[**Download the latest DOSwriter APK**](https://github.com/ElmerWorks/DOSwriter/releases/download/Pre-release/DWTEv0.9-app-release.apk)
+<br>
+<br>
+
 
 <p align="center">
   <img src="images/Boox-1200-800-hero.png" alt="Boox-Hero-Shot">
