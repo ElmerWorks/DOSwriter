@@ -454,17 +454,17 @@ If you accidentally clear a buffer or delete a large block of text:
 - **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
 
 # <a id="Documentation"></a>**Documentation**
-- [Function & Keyboard Map](./DOSwriter-Function-Keyboard-Map.md)
-- [Menus & Settings](./DOSwriter-Menus-Settings.md)
-- [DOSwriter File Manager](./DOSwriter-File-Manager.md)
-- [DOSwriter Buffer&File Autosave](./DOSwriter-Buffer-File-Operations.md)
-- [Fonts](./DOSwriter-Fonts.md)
-- [Image, Markdown, & PDF](./DOSwriter-ImageMdPDF-Commands.md)
-- [Text Tools](./DOSwriter-Text-Tools.md)
-- [Text Macros](./DOSwriter-Text-Macros.md)
-- [Remote Desktop Sync](./DOSwriter-Remote-Sync.md)
-- [Virtual Keyboard](./DOSwriter-Virtual-Keyboard )
-- [Vietnamese TELEX](./Vietnamese_TELEX_Test_Guide.md)
+- [Function & Keyboard Map](./docs/DOSwriter-Function-Keyboard-Map.md)
+- [Menus & Settings](./docs/DOSwriter-Menus-Settings.md)
+- [DOSwriter File Manager](./docs/DOSwriter-File-Manager.md)
+- [DOSwriter Buffer&File Autosave](./docs/DOSwriter-Buffer-File-Operations.md)
+- [Fonts](./docs/DOSwriter-Fonts.md)
+- [Image, Markdown, & PDF](./docs/DOSwriter-ImageMdPDF-Commands.md)
+- [Text Tools](./docs/DOSwriter-Text-Tools.md)
+- [Text Macros](./docs/DOSwriter-Text-Macros.md)
+- [Remote Desktop Sync](./docs/DOSwriter-Remote-Sync.md)
+- [Virtual Keyboard](./docs/DOSwriter-Virtual-Keyboard )
+- [Vietnamese TELEX](./docs/Vietnamese_TELEX_Test_Guide.md)
 
 ---
 
