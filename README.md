@@ -59,7 +59,7 @@
 ## [**Getting Started**](#Getting-Started)
 ## [**Documentation**](#Documentation)
 
-## <a id="Motivation"></a>**1.  Motivation**
+## <a id="Motivation"></a>**Motivation**
 DOSwriter is designed for writers who want the simplicity of old-school word processors combined with the power of small Android devices. It features a unique multi-buffer system, keyboard-first navigation, and optimization for Monochrome E-ink displays (like Boox, Supernote, and Bigme).
 
 There is a wide selection of compact, lightweight Bluetooth keyboards, and even heavier mechanical or ergonomic keyboards. Android devices are cheap and ubiquitous. This is an easy combination for a writer deck if the writing software leverages the keyboard interface. The keyboard is where your words are taking shape so optimizing that supports efficient writing production. "Writing production" is a key phrase : If you are trying to write seriously there is the task of managing all the text towards a formatted document for publication.
@@ -115,6 +115,8 @@ Rather than adding conventional desktop-style controls to a small Android screen
 [14. Intuitive Commands and Integrated Help](#Intuitive-Commands-and-Integrated-Help)
 
 [15.  Virtual Keyboard](#Virtual-Keyboard)
+
+[16.  Buffer and File Autosave](#Auto-Save)
 
 
 
@@ -335,6 +337,21 @@ For devices without physical hardware, the DOSwriter Virtual Keyboard offers a t
 <br>
 <br>
 
+### <a id="Auto-Save"></a>16.  Buffer and File Autosave
+DOSwriter employs a tiered data protection strategy to ensure that your writing is never lost, ranging from automatic session persistence to manual file exports and remote synchronization.
+
+**1. Internal Session Persistence (Auto-Save)**
+- **How it works**: Every time you switch buffers, minimize the app, or even when the device screen turns off, DOSwriter instantly saves the exact state of all 17 buffers (8 Main, 8 To-Do, 1 Scratchpad) to the app's private storage (`SharedPreferences`).
+- **Recovery**: If the app crashes or your battery dies, your text will be exactly where you left it when you restart the app. You do **not** need to manually save to a file to preserve your work between sessions.
+- **Visual Indicator**: An asterisk (`*`) appears next to the filename in the status bar if the current buffer has unsaved changes (relative to the last exported file).
+
+**2. Accidental Deletion Recovery (Undo & Confirmation)**
+If you accidentally clear a buffer or delete a large block of text:
+- **Shortcut**: `CTRL + Z` (Undo) supports up to **100 steps** of history.
+- **Unsaved Changes Confirmation**: If you attempt to close a buffer (`CTRL + W`) that contains unsaved changes, DOSwriter will now display a confirmation prompt asking if you want to **Save & Close**, **Close Anyway**, or **Cancel**. This prevents the accidental loss of work that hasn't been exported to a file yet.
+- **Accidental Close**: When you confirm a wipe, the entire content is pushed onto the Undo stack. If you still realize you made a mistake, pressing `CTRL + Z` will instantly restore your work.
+
+--- 
 
 
 
@@ -440,6 +457,7 @@ For devices without physical hardware, the DOSwriter Virtual Keyboard offers a t
 - [Function & Keyboard Map](./DOSwriter-Function-Keyboard-Map.md)
 - [Menus & Settings](./DOSwriter-Menus-Settings.md)
 - [DOSwriter File Manager](./DOSwriter-File-Manager.md)
+- [DOSwriter Buffer&File Autosave](./DOSwriter-Buffer-File-Operations.md)
 - [Fonts](./DOSwriter-Fonts.md)
 - [Image, Markdown, & PDF](./DOSwriter-ImageMdPDF-Commands.md)
 - [Text Tools](./DOSwriter-Text-Tools.md)
