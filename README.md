@@ -19,7 +19,7 @@
 
 **DOSwriter is currently distributed as a free APK while the project is under active development.**
 
-[**Download the latest DOSwriter APK**](https://github.com/ElmerWorks/DOSwriter/releases/download/Pre-release/DWTEv0.9-app-release.apk)
+[**Download the latest DOSwriter APK**](https://github.com/ElmerWorks/DOSwriter/releases/download/Update092526/DWTEv0.9-app-release.apk)
 <br>
 <br>
 
