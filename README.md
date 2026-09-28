@@ -80,11 +80,11 @@ But if you are a fool and insist on developing your own tools, text processing a
 
 If this discussion interests you, I describe the DOSwriter design inspiration and use case on the [DOSwriter website.](https://doswriter.com/usecase/DOSwriterUseCase "DOSwriter Design Inspiration")
 ## Core Concepts
-DOSwriter is built around simple ideas : A small screen shouldn't force you to think about your writing in a small way, and the device human interface should not pull you out of the mental writing mod[...]
+DOSwriter is built around simple ideas : A small screen shouldn't force you to think about your writing in a small way, and the device human interface should not pull you out of the mental writing model.
 
-The editor is designed around the way writers actually work: capture text, move between sections, organize a growing manuscript, review the larger structure, work with reference materials, and eventua[...]
+The editor is designed around the way writers actually work: capture text, move between sections, organize a growing manuscript, review the larger structure, work with reference materials, and eventually produce something you can share or print.
 
-Rather than adding conventional desktop-style controls to a small Android screen, DOSwriter uses a keyboard-first workflow built around Text Buffers, Workspaces, and Navigation/Document Visualization [...]
+Rather than adding conventional desktop-style controls to a small Android screen, DOSwriter uses a keyboard-first workflow built around Text Buffers, Workspaces, and Navigation/Document Visualization Tools.
 
 - [1. Visual Aesthetics and Ergonomic Writing Setup](#1-visual-aesthetics-and-ergonomic-writing-setup)
 - [2. Buffers and The Working Text View](#2-buffers-and-the-working-text-view)
@@ -107,14 +107,13 @@ Rather than adding conventional desktop-style controls to a small Android screen
 
 ### 1. Visual Aesthetics and Ergonomic Writing Setup
 
-DOSwriter creates a focused writing environment blending retro aesthetics with modern ergonomic controls. The typographic system replaces traditional point sizes with "Characters Per Line" (CPL) prese[...]
+DOSwriter creates a focused writing environment blending retro aesthetics with modern ergonomic controls. The typographic system replaces traditional point sizes with "Characters Per Line" (CPL) presets, using hardware profiling to ensure consistent text density across phones, tablets, and e-ink displays. 
 
-This setup is housed within a high-contrast, theme-aware viewport where users can fine-tune side margins and vertical offsets to create a perfectly balanced writing stage. An ergonomic feature is the [...]
+This setup is housed within a high-contrast, theme-aware viewport where users can fine-tune side margins and vertical offsets to create a perfectly balanced writing stage. An ergonomic feature is the Typewriter Mode, which pairs a customizable block cursor with vertical anchoring and visual guide lines to keep the active line centered, significantly reducing eye strain and neck fatigue during long sessions.
 
-DOSwriter provides instant typographic control through dedicated hardware hotkeys, allowing writers to increase or decrease font size on the fly without breaking their creative flow. The engine suppor[...]
+DOSwriter provides instant typographic control through dedicated hardware hotkeys, allowing writers to increase or decrease font size on the fly without breaking their creative flow. The engine supports a wide array of high-quality internal and external Unicode TrueType/OpenType fonts, ensuring crisp legibility and complete character support across multiple languages. Whether using a distraction-free Monospace or a sophisticated Serif, the app intelligently maintains layout consistency across all your devices.
 
-Designed for use in any environment, DOSwriter features a robust theme engine optimized for ambient lighting comfort. Users can transition between high-contrast light modes for outdoor use and muted, [...]
-
+Designed for use in any environment, DOSwriter features a robust theme engine optimized for ambient lighting comfort. Users can transition between high-contrast light modes for outdoor use and muted, eye-strain-reducing dark modes for late-night sessions. For E-Ink users, specialized monochrome themes eliminate ghosting and maximize battery life, while integrated Day/Night scheduling automatically shifts the workspace colors based on the local time.
 <br>
 
 [![Fonts Demo](https://img.youtube.com/vi/qcl8oykMreY/hqdefault.jpg)](https://youtu.be/5mE69HamK3I)
@@ -144,9 +143,9 @@ Designed for use in any environment, DOSwriter features a robust theme engine op
 
 
 ### 2. Buffers and The Working Text View
-At the heart of the application is the keyboard-oriented Working Buffer—a single-instance text view designed for speed and stability. DOSwriter buffers are built to handle large text files without l[...]
+At the heart of the application is the keyboard-oriented Working Buffer—a single-instance text view designed for speed and stability. DOSwriter buffers are built to handle large text files without lag, providing a stable "working stage" for your content. 
 
-Buffers are intuitive for working with text. There are 8 buffers corresponding to keyboard F1-F8 keys. Think of the them as a stack of notepads. The 8 DOSwriter buffers map conveniently to keyboard F [...]
+Buffers are intuitive for working with text. There are 8 buffers corresponding to keyboard F1-F8 keys. Think of the them as a stack of notepads. The 8 DOSwriter buffers map conveniently to keyboard F keys. The Alphasmart Neo uses this paradigm.
 
 The F1-F8 key paradigm adapts well to modern Bluetooth keyboards. Not all keyboards have F keys available so DOSwriter also uses ALT+1-9 keys to swap buffers. 
 
@@ -160,14 +159,14 @@ The 8 buffer concept works well for file visualization on small devices. DOSwrit
 
 The buffer list can be viewed with ALT-B.  Use arrow keys, buffer number, or F keys to select.
 
- I borrowed an idea from MS Word where you can zoom out and see all your pages in a layout. In DOSwriter all 8 buffers can be viewed at once and selected in Buffer Layout View by pressing `[Esc]` key [...]
+ I borrowed an idea from MS Word where you can zoom out and see all your pages in a layout. In DOSwriter all 8 buffers can be viewed at once and selected in Buffer Layout View by pressing `[Esc]` key from any buffer. Use arrow keys/Enter, buffer number, or F key to select. Press `[Esc]` to return to the buffer.   
 
 Workspaces keep related buffers together. Use one for a writing project, another for notes, and another for your ToDo list.
 A Workspace contains eight active writing buffers that can be viewed together as a visual layout.
 
-Press `[Esc]` while editing to step back from the text and see the entire Workspace. Each buffer can display text, an image, a file preview, or an image with a text overlay. Buffers can be selected wi[...]
+Press `[Esc]` while editing to step back from the text and see the entire Workspace. Each buffer can display text, an image, a file preview, or an image with a text overlay. Buffers can be selected with the keyboard or by touch.
 
-Think of it as a digital corkboard for your writing. Instead of hunting through folders or tabs, your active work is always visible and one keystroke away. This makes the Workspace more than a collect[...]
+Think of it as a digital corkboard for your writing. Instead of hunting through folders or tabs, your active work is always visible and one keystroke away. This makes the Workspace more than a collection of tabs. See what you're working on before deciding where to go next.
 
 <p align="center">
   <img src="images/tab-buffer-layout-1.png" alt="Lenovo-Tab">
@@ -195,11 +194,13 @@ Think of it as a digital corkboard for your writing. Instead of hunting through 
 
 DOSwriter tries to keep routine computer operations from becoming interruptions to writing which helps manage work without leaving the writing environment.
 
-The integrated File Browser provides keyboard-driven access to files and folders without sending the writer into Android's gesture-oriented file picker. You link the root working directory for the File [...]
+The integrated File Browser provides keyboard-driven access to files and folders without sending the writer into Android's gesture-oriented file picker. You link the root working directory for the File Browser so file operations (Open/Save/Save As) are centered on your working folders, not the sprawling Android file system.
 
-The File Browser also has a minimalist design, presenting only the information you need without screen clutter. As you navigate the files, a preview window displays the image or first page of text, PD[...]
+The File Browser also has a minimalist design, presenting only the information you need without screen clutter. As you navigate the files, a preview window displays the image or first page of text, PDF, or Markdown files.
 
 Arrow keys and Enter navigate the file system, while DOSwriter remembers the working directory for each Workspace. Text and image files can also be previewed within the application.
+
+<br>
 
 <br>
 
