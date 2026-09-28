@@ -26,6 +26,8 @@
 <br>
 
 
+## **DOSwriter Screenshots**
+
 <p align="center">
   <img src="images/Boox-1200-800-hero.png" alt="Boox-Hero-Shot">
   <br>
