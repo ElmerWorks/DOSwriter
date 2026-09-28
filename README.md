@@ -350,9 +350,6 @@ For devices without physical hardware, the DOSwriter Virtual Keyboard offers a t
 ### 16. Buffer and File Autosave
 DOSwriter employs a tiered data protection strategy to ensure that your writing is never lost, ranging from automatic session persistence to manual file exports and remote synchronization.
 
-
-[Back to Core Concepts](#core-concepts)
-
 **1. Internal Session Persistence (Auto-Save)**
 - **How it works**: Every time you switch buffers, minimize the app, or even when the device screen turns off, DOSwriter instantly saves the exact state of all 17 buffers (8 Main, 8 To-Do, 1 Scratchpa[...]
 - **Recovery**: If the app crashes or your battery dies, your text will be exactly where you left it when you restart the app. You do **not** need to manually save to a file to preserve your work betw[...]
@@ -363,6 +360,9 @@ If you accidentally clear a buffer or delete a large block of text:
 - **Shortcut**: `CTRL + Z` (Undo) supports up to **100 steps** of history.
 - **Unsaved Changes Confirmation**: If you attempt to close a buffer (`CTRL + W`) that contains unsaved changes, DOSwriter will now display a confirmation prompt asking if you want to **Save & Close**[...]
 - **Accidental Close**: When you confirm a wipe, the entire content is pushed onto the Undo stack. If you still realize you made a mistake, pressing `CTRL + Z` will instantly restore your work.
+
+[Back to Core Concepts](#core-concepts)
+
 
 --- 
 
