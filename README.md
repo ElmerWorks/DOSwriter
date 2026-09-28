@@ -53,7 +53,11 @@
 
 # **Contents**
 
-## [**Motivation**](#motivation)## [**Core Concepts**](#core-concepts)## [**Key Features**](#key-features)## [**Getting Started**](#getting-started)## [**Documentation**](#documentation)
+## [**Motivation**](#motivation)
+## [**Core Concepts**](#core-concepts)
+## [**Key Features**](#key-features)
+## [**Getting Started**](#getting-started)
+## [**Documentation**](#documentation)
 ## **Motivation**
 DOSwriter is designed for writers who want the simplicity of old-school word processors combined with the power of small Android devices. It features a unique multi-buffer system, keyboard-first navigation, and optimization for Monochrome E-ink displays (like Boox, Supernote, and Bigme).
 
