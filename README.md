@@ -86,8 +86,8 @@ The editor is designed around the way writers actually work: capture text, move 
 Rather than adding conventional desktop-style controls to a small Android screen, DOSwriter uses a keyboard-first workflow built around Text Buffers, Workspaces, and Navigation/Document Visualization [...]
 
 - [1. Visual Aesthetics and Ergonomic Writing Setup](#1-visual-aesthetics-and-ergonomic-writing-setup)
-- [2. Buffers The Working Text View](#2-buffers-the-working-text-view)
-- [3. Workspaces The Multi-Buffer Layout View](#3-workspaces-the-multi-buffer-layout-view)
+- [2. Buffers and The Working Text View](#2-buffers-and-the-working-text-view)
+- [3. Workspaces and The Multi-Buffer Layout View](#3-workspaces-and-the-multi-buffer-layout-view)
 - [4. The Writing Environment Stay in the Flow](#4-the-writing-environment-stay-in-the-flow)
 - [5. Navigating Large Files on Small Screens Bookmarks and Text Collapse](#5-navigating-large-files-on-small-screens-bookmarks-and-text-collapse)
 - [6. Visualizing Document Structure Filmstrip and Layout Views](#6-visualizing-document-structure-filmstrip-and-layout-views)
@@ -142,7 +142,7 @@ Designed for use in any environment, DOSwriter features a robust theme engine op
 
 
 
-### 2. Buffers : The Working Text View
+### 2. Buffers and The Working Text View
 At the heart of the application is the keyboard-oriented Working Buffer—a single-instance text view designed for speed and stability. DOSwriter buffers are built to handle large text files without l[...]
 
 Buffers are intuitive for working with text. There are 8 buffers corresponding to keyboard F1-F8 keys. Think of the them as a stack of notepads. The 8 DOSwriter buffers map conveniently to keyboard F [...]
@@ -152,7 +152,7 @@ The F1-F8 key paradigm adapts well to modern Bluetooth keyboards. Not all keyboa
 ![FKey-Buffers](images/keyboardF-buffers.png)
 
 
-### Workspaces : The Multi-Buffer Layout View
+### Workspaces and The Multi-Buffer Layout View
 
 The 8 buffer concept works well for file visualization on small devices. DOSwriter has fast buffer layout and preview commands.
 
