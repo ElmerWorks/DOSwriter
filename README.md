@@ -58,7 +58,7 @@
 ## [**Key Features**](#key-features)
 ## [**Getting Started**](#getting-started)
 ## [**Documentation**](#documentation)
-## **Motivation**
+## **motivation**
 DOSwriter is designed for writers who want the simplicity of old-school word processors combined with the power of small Android devices. It features a unique multi-buffer system, keyboard-first navigation, and optimization for Monochrome E-ink displays (like Boox, Supernote, and Bigme).
 
 There is a wide selection of compact, lightweight Bluetooth keyboards, and even heavier mechanical or ergonomic keyboards. Android devices are cheap and ubiquitous. This is an easy combination for a writer deck if the writing software leverages the keyboard interface. The keyboard is where your words are taking shape so optimizing that supports efficient writing production. "Writing production" is a key phrase : If you are trying to write seriously there is the task of managing all the text towards a formatted document for publication.
@@ -78,7 +78,7 @@ But if you are a fool and insist on developing your own tools, text processing a
 If this discussion interests you, I describe the DOSwriter design inspiration and use case on the [DOSwriter website.](https://doswriter.com/usecase/DOSwriterUseCase "DOSwriter Design Inspiration")
 
 
-## **DOSwriter** **Core Concepts**
+## **core-concepts**
 DOSwriter is built around simple ideas : A small screen shouldn't force you to think about your writing in a small way, and the device human interface should not pull you out of the mental writing model.
 
 The editor is designed around the way writers actually work: capture text, move between sections, organize a growing manuscript, review the larger structure, work with reference materials, and eventually produce something you can share or print.
