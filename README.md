@@ -363,10 +363,7 @@ If you accidentally clear a buffer or delete a large block of text:
 
 [Back to Core Concepts](#core-concepts)
 
-
 --- 
-
-
 
 ## Key Features
 - **Distraction-Free Editing**: The default visual mode is fullscreen with no icon clutter or Android distractions. 
@@ -386,11 +383,15 @@ If you accidentally clear a buffer or delete a large block of text:
 - **E-Ink Optimized**: High-contrast UI elements, custom `[+]` Fold and `[BK]` Bookmark icons, and integrated hardware drivers for Onyx/Boox and Supernote.
 - **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
 
+[Back to Contents](#contents)
+
 # Getting Started
 1. **Installation**: Deploy the APK to your Android device (Min SDK 23).
 2. **Permissions**: Grant storage permissions to enable file opening and saving.
 3. **Linking Folders**: Go to `ALT-S (SETTINGS) > File Manager` to link your primary writing folder.
 4. **Learn the Keys**: DOSwriter is built for hardware keyboards but includes a powerful virtual layout. Press `ALT-H` anytime for the help system.
+
+[Back to Contents](#contents)
 
 ## App Operation
 
@@ -431,7 +432,6 @@ If you accidentally clear a buffer or delete a large block of text:
 - **Display Themes**: Displays current Theme name `CTRL-SHIFT-T`
 - **Custom Themes**: Define custom color themes using RGB values in Settings>Theme
 
-
 ### Editing Modes
 - **Plain Text**: Efficient editing for standard `.txt` files with full support for power tools like folds and bookmarks.
 - **Typewriter Mode**: Keep your focus point centered. Features include "Stationary Cursor" (platen moves) or "Moving Cursor" modes.
@@ -465,6 +465,8 @@ If you accidentally clear a buffer or delete a large block of text:
 - **Macros**: Use `CTRL-ALT-M` for the macro console or `CTRL-ALT->>` to define quick snippets.
 - **Text Collapse**: Collapse paragraphs with `CTRL-J` to focus on specific sections. Features a high-contrast `[+]` marker with text preview.
 - **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
+
+[Back to Contents](#contents)
 
 # Documentation
 - [Function & Keyboard Map](./docs/DOSwriter-Function-Keyboard-Map.md)
