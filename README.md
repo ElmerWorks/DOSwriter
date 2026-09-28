@@ -104,7 +104,7 @@ Rather than adding conventional desktop-style controls to a small Android screen
 
 
 
-### Visual Aesthetics and Ergonomic Writing Setup
+### 1. Visual Aesthetics and Ergonomic Writing Setup
 
 DOSwriter creates a focused writing environment blending retro aesthetics with modern ergonomic controls. The typographic system replaces traditional point sizes with "Characters Per Line" (CPL) prese[...]
 
@@ -142,7 +142,7 @@ Designed for use in any environment, DOSwriter features a robust theme engine op
 
 
 
-### Buffers : The Working Text View
+### 2. Buffers : The Working Text View
 At the heart of the application is the keyboard-oriented Working Buffer—a single-instance text view designed for speed and stability. DOSwriter buffers are built to handle large text files without l[...]
 
 Buffers are intuitive for working with text. There are 8 buffers corresponding to keyboard F1-F8 keys. Think of the them as a stack of notepads. The 8 DOSwriter buffers map conveniently to keyboard F [...]
