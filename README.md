@@ -189,7 +189,7 @@ Think of it as a digital corkboard for your writing. Instead of hunting through 
   <b>Click for Buffer Layout View Youtube video </b>
 </p>
 
-### 4. The Writing Environment : Stay in the Flow
+### 4. The Writing Environment Stay in the Flow
 
 DOSwriter tries to keep routine computer operations from becoming interruptions to writing which helps manage work without leaving the writing environment.
 
@@ -207,7 +207,7 @@ Arrow keys and Enter navigate the file system, while DOSwriter remembers the wor
   <b>Click for DOSwriter File Manager Youtube video </b>
 </p>
 
-### 5. Navigating Large Files on Small Screens : Bookmarks & Text Collapse
+### 5. Navigating Large Files on Small Screens Bookmarks and Text Collapse
 
 Small screens create a particular writing problem: you can concentrate on the current sentence or paragraph, but it is difficult to maintain awareness of a large document. DOSwriter provides tools to [...]
 
@@ -235,7 +235,7 @@ Focus on the paragraph you're writing without losing the structure around it.
 </p>
 
 
-### 8. Visualizing Document Structure : Filmstrip & Layout Views
+### 8. Visualizing Document Structure Filmstrip & Layout Views
 Scrolling through thousands of words on a small device gives you only a tiny window into the document. DOSwriter's Layout and Filmstrip Viewer provide a different way to navigate: reduce the document [...]
 
 The idea came from the same visual principle used by a filmstrip or photographic proof sheet: you can recognize the structure of a large work without reading every word. The DOSwriter analog uses an a[...]
