@@ -85,37 +85,22 @@ The editor is designed around the way writers actually work: capture text, move 
 
 Rather than adding conventional desktop-style controls to a small Android screen, DOSwriter uses a keyboard-first workflow built around Text Buffers, Workspaces, and Navigation/Document Visualization [...]
 
-[1.  Visual Aesthetics and Ergonomic Writing Setup](#visual-aesthetics-and-ergonomic-writing-setup)
-
-[2.  Buffers : The Working Text View](#buffers--the-working-text-view)
-
-[3.  Workspaces : The Multi-Buffer Layout View](#workspaces--the-multi-buffer-layout-view)
-
-[4.  The Writing Environment : Stay in the Flow](#the-writing-environment--stay-in-the-flow)
-
-[5.  Navigating Large Files on Small Screens : Bookmarks & Text Collapse](#navigating-large-files-on-small-screens--bookmarks--text-collapse)
-
-[6.  Visualizing Document Structure : Filmstrip & Layout Views](#visualizing-document-structure--filmstrip--layout-views)
-
-[7.  Split-Screen Editing and Image Slideshow ](#split-screen-editing-and-image-slideshow)
-
-[8.  Using Images and Reference Materials](#using-images-and-reference-materials)
-
-[9. Managing Writing Projects](#managing-writing-projects)
-
-[10. Markdown Editing with Live Preview](#markdown-editing-with-live-preview)
-
-[11. Review & Publication](#review--publication)
-
-[12. Desktop File Syncing and Cloud Sharing](#desktop-file-syncing-and-cloud-sharing)
-
-[13. Built-In Hipster PDA](#built-in-hipster-pda)
-
-[14. Intuitive Commands and Integrated Help](#intuitive-commands-and-integrated-help)
-
-[15.  Virtual Keyboard](#virtual-keyboard)
-
-[16.  Buffer and File Autosave](#buffer-and-file-autosave)
+- [1. Visual Aesthetics and Ergonomic Writing Setup](#1-visual-aesthetics-and-ergonomic-writing-setup)
+- [2. Buffers The Working Text View](#2-buffers-the-working-text-view)
+- [3. Workspaces The Multi-Buffer Layout View](#3-workspaces-the-multi-buffer-layout-view)
+- [4. The Writing Environment Stay in the Flow](#4-the-writing-environment-stay-in-the-flow)
+- [5. Navigating Large Files on Small Screens Bookmarks and Text Collapse](#5-navigating-large-files-on-small-screens-bookmarks-and-text-collapse)
+- [6. Visualizing Document Structure Filmstrip and Layout Views](#6-visualizing-document-structure-filmstrip-and-layout-views)
+- [7. Split-Screen Editing and Image Slideshow](#7-split-screen-editing-and-image-slideshow)
+- [8. Using Images and Reference Materials](#8-using-images-and-reference-materials)
+- [9. Managing Writing Projects](#9-managing-writing-projects)
+- [10. Markdown Editing with Live Preview](#10-markdown-editing-with-live-preview)
+- [11. Review and Publication](#11-review-and-publication)
+- [12. Desktop File Syncing and Cloud Sharing](#12-desktop-file-syncing-and-cloud-sharing)
+- [13. Built-In Hipster PDA](#13-built-in-hipster-pda)
+- [14. Intuitive Commands and Integrated Help](#14-intuitive-commands-and-integrated-help)
+- [15. Virtual Keyboard](#15-virtual-keyboard)
+- [16. Buffer and File Autosave](#16-buffer-and-file-autosave)
 
 
 
