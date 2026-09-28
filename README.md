@@ -152,7 +152,7 @@ The F1-F8 key paradigm adapts well to modern Bluetooth keyboards. Not all keyboa
 ![FKey-Buffers](images/keyboardF-buffers.png)
 
 
-### Workspaces and The Multi-Buffer Layout View
+### 3. Workspaces and The Multi-Buffer Layout View
 
 The 8 buffer concept works well for file visualization on small devices. DOSwriter has fast buffer layout and preview commands.
 
@@ -189,7 +189,7 @@ Think of it as a digital corkboard for your writing. Instead of hunting through 
   <b>Click for Buffer Layout View Youtube video </b>
 </p>
 
-### The Writing Environment : Stay in the Flow
+### 4. The Writing Environment : Stay in the Flow
 
 DOSwriter tries to keep routine computer operations from becoming interruptions to writing which helps manage work without leaving the writing environment.
 
@@ -207,11 +207,11 @@ Arrow keys and Enter navigate the file system, while DOSwriter remembers the wor
   <b>Click for DOSwriter File Manager Youtube video </b>
 </p>
 
-### Navigating Large Files on Small Screens : Bookmarks & Text Collapse
+### 5. Navigating Large Files on Small Screens : Bookmarks & Text Collapse
 
 Small screens create a particular writing problem: you can concentrate on the current sentence or paragraph, but it is difficult to maintain awareness of a large document. DOSwriter provides tools to [...]
 
-#### Bookmarks
+#### 6. Bookmarks
 Bookmarks let you mark important locations in a document and return to them instantly. A high-contrast `[BK]` marker and dimmed contextual preview remain visible in the margin, while the Bookmark Menu[...]
 <br>
 
@@ -222,7 +222,7 @@ Bookmarks let you mark important locations in a document and return to them inst
 </p>
 
 
-#### Text Collapse
+#### 7. Text Collapse
 Collapse lets you temporarily hide material that you don't need to see while working—research notes, older drafts, completed sections, or other non-essential material. Blocks can be collapsed manual[...]
 
 Focus on the paragraph you're writing without losing the structure around it.
@@ -235,16 +235,16 @@ Focus on the paragraph you're writing without losing the structure around it.
 </p>
 
 
-### Visualizing Document Structure : Filmstrip & Layout Views
+### 8. Visualizing Document Structure : Filmstrip & Layout Views
 Scrolling through thousands of words on a small device gives you only a tiny window into the document. DOSwriter's Layout and Filmstrip Viewer provide a different way to navigate: reduce the document [...]
 
 The idea came from the same visual principle used by a filmstrip or photographic proof sheet: you can recognize the structure of a large work without reading every word. The DOSwriter analog uses an a[...]
 
 
-#### Layout View
+#### 9. Layout View
 Displays the document as a grid of miniature pages. Scan the grid, select a page, and return directly to that location in the text.
 
-#### Filmstrip View
+#### 10. Filmstrip View
 This displays the document as a sequence of paragraph-sized views. Configure the amount of text shown and scan rapidly through a long manuscript. Select a section and return directly to that location [...]
 
 Filmstrip View is a magnifier for the structure of a document. Both views can also be compiled to PDF, turning the same navigation tools into a way to create condensed reference or proof documents.
@@ -260,7 +260,7 @@ Filmstrip View is a magnifier for the structure of a document. Both views can al
 
 
 
-### Split-Screen Editing and Image Slideshow 
+### 11. Split-Screen Editing and Image Slideshow 
 
 Split-Screen Mode allows you to view and edit two buffers simultaneously. This is useful for comparing different chapters of a manuscript, taking notes from a PDF reference, or live-previewing Markdow[...]
 
