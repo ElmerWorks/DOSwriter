@@ -294,6 +294,7 @@ Think of it as a digital corkboard for your writing. Instead of hunting through 
 <p align="left">
   <b>Click for Buffer Layout View Youtube video </b>
 </p>
+
 [Back to Core Concept Details](#core-concept-details)
 
 ### 4. The Writing Environment Stay in the Flow
