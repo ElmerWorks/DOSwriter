@@ -151,6 +151,7 @@ The F1-F8 key paradigm adapts well to modern Bluetooth keyboards. Not all keyboa
 
 ![FKey-Buffers](images/keyboardF-buffers.png)
 
+[Back to Core Concepts](#core-concepts)
 
 ### 3. Workspaces and The Multi-Buffer Layout View
 
@@ -290,7 +291,7 @@ The Outline Manager acts as a hierarchical project hub, enabling you to organize
 ### 10. Markdown Editing with Live Preview
 DOSwriter supports Markdown editing, Useful for structured formatting without leaving the app. The editor highlights syntax in real-time, while the Live Preview mode (`ALT+R`) renders headers, tables,[...]
 
-### 11. Review & Publication
+### 11. Review and Publication
 DOSwriter has basic PDF publishing for buffers and manuscript views. This allows a writer to move between: Write → Navigate → Review → Revise → Publish without abandoning the keyboard-centered[...]
 
 ### 12. Desktop File Syncing and Cloud Sharing
