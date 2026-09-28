@@ -234,17 +234,16 @@ Focus on the paragraph you're writing without losing the structure around it.
   <b>Click for DOSwriter Text Collapse Youtube video </b>
 </p>
 
-
-### 8. Visualizing Document Structure Filmstrip & Layout Views
+### 6. Visualizing Document Structure Filmstrip and Layout Views
 Scrolling through thousands of words on a small device gives you only a tiny window into the document. DOSwriter's Layout and Filmstrip Viewer provide a different way to navigate: reduce the document [...]
 
 The idea came from the same visual principle used by a filmstrip or photographic proof sheet: you can recognize the structure of a large work without reading every word. The DOSwriter analog uses an a[...]
 
 
-#### 9. Layout View
+#### Layout View
 Displays the document as a grid of miniature pages. Scan the grid, select a page, and return directly to that location in the text.
 
-#### 10. Filmstrip View
+#### Filmstrip View
 This displays the document as a sequence of paragraph-sized views. Configure the amount of text shown and scan rapidly through a long manuscript. Select a section and return directly to that location [...]
 
 Filmstrip View is a magnifier for the structure of a document. Both views can also be compiled to PDF, turning the same navigation tools into a way to create condensed reference or proof documents.
@@ -260,7 +259,7 @@ Filmstrip View is a magnifier for the structure of a document. Both views can al
 
 
 
-### 11. Split-Screen Editing and Image Slideshow 
+### 7. Split-Screen Editing and Image Slideshow 
 
 Split-Screen Mode allows you to view and edit two buffers simultaneously. This is useful for comparing different chapters of a manuscript, taking notes from a PDF reference, or live-previewing Markdow[...]
 
@@ -274,7 +273,7 @@ Split-Screen Mode allows you to view and edit two buffers simultaneously. This i
 
 
 
-### Using Images and Reference Materials
+### 8. Using Images and Reference Materials
 
 Research, photographs, illustrations, diagrams, and other visual references can be part of the writing process. DOSwriter includes an integrated Image Viewer that can display images full-screen, move [...]
 
@@ -285,16 +284,16 @@ PDF documents can be navigated directly from the keyboard, with page navigation,
 Reference material can remain part of the Workspace instead of becoming another application to manage. When linked in the Outline Manager they become part of an organized project strcuture.
 
 
-### Managing Writing Projects
+### 9. Managing Writing Projects
 The Outline Manager acts as a hierarchical project hub, enabling you to organize cmanuscripts into custom containers, chapters, and nested folders. By linking individual external files into a cohesive[...]
 
-### Markdown Editing with Live Preview
+### 10. Markdown Editing with Live Preview
 DOSwriter supports Markdown editing, Useful for structured formatting without leaving the app. The editor highlights syntax in real-time, while the Live Preview mode (`ALT+R`) renders headers, tables,[...]
 
-### Review & Publication
+### 11. Review & Publication
 DOSwriter has basic PDF publishing for buffers and manuscript views. This allows a writer to move between: Write → Navigate → Review → Revise → Publish without abandoning the keyboard-centered[...]
 
-### Desktop File Syncing and Cloud Sharing
+### 12. Desktop File Syncing and Cloud Sharing
 #### Desktop Sync
 DOSwriter connects mobile drafting and desktop finishing through a streamlined, local-network sync server. You can wirelessly transmit  active buffers to companion desktop applications such as Notepad[...]
 
@@ -303,13 +302,13 @@ I implemented the desktop sync server in the Go language, which works on Linux a
 #### Android App Sharing
 The app integrates with the Android system provider, allowing for the direct opening and saving of documents to cloud services like Google Drive, OneDrive, or Dropbox without manual file transfers. I [...]
 
-### Built-In Hipster PDA
+### 13. Built-In Hipster PDA
 DOSwriter has a secondary 8-buffer Workspace that can be used for personal task management as described in this [DOSwriter link.](https://doswriter.com/instructions/DOSwriterPDA "DOSwriter PDA")
 
-### Intuitive Commands and Integrated Help
+### 14. Intuitive Commands and Integrated Help
 Reflecting its keyboard-centric philosophy, DOSwriter minimizes menu-diving through a comprehensive system of intuitive `CTRL` and `ALT` command chords. For users needing a quick reference, the Integr[...]
 
-### Virtual Keyboard
+### 15. Virtual Keyboard
 For devices without physical hardware, the DOSwriter Virtual Keyboard offers a tailored input experience optimized for retro writing. Beyond standard alpha-numeric keys, it includes specialized layout[...]
 
 <p align="center">
@@ -321,7 +320,7 @@ For devices without physical hardware, the DOSwriter Virtual Keyboard offers a t
 <br>
 <br>
 
-### Buffer and File Autosave
+### 16. Buffer and File Autosave
 DOSwriter employs a tiered data protection strategy to ensure that your writing is never lost, ranging from automatic session persistence to manual file exports and remote synchronization.
 
 **1. Internal Session Persistence (Auto-Save)**
