@@ -5,11 +5,13 @@
 
 **A distraction-free, retro-inspired text editor optimized for mobile and E-ink devices.**
 
-**DOSwriter is a minimalist Android writing environment inspired by dedicated writing devices and keyboard-centric workflows such as the Alphasmart Neo and DOS/Unix text editing tools. It is designed [...]
+**A distraction-free, retro-inspired text editor optimized for mobile and E-ink devices.**
 
-**DOSwriter has good screen control for emulating e-ink displays on backlit devices and has easy ergonomic color settings. It also works on B&W and color Android e-ink displays such as the Boox and th[...]
+**DOSwriter is a minimalist Android writing environment inspired by dedicated writing devices and keyboard-centric workflows such as the Alphasmart Neo and DOS/Unix text editing tools. It is designed for fast, keyboard-driven writing with a focus on stability and simplicity. The keyboard workflow is intuitive and easy to learn. It has tools that address the problem of editing large text files on small phones and e-inks.**
 
-**Other useful features are bookmarks, text collapse, file visualization tools, Markdown editing, an outline manager for project organization, a remote PC file sync tool, Vietnamese TELEX mode, and a [...]
+**DOSwriter has good screen control for emulating e-ink displays on backlit devices and has easy ergonomic color settings. It also works on B&W and color Android e-ink displays such as the Boox and the BigMe. Color themes can be set for Day/Night modes. Font size and screen brightness can be adjusted by simple keyboard controls.**
+
+**Other useful features are bookmarks, text collapse, file visualization tools, Markdown editing, an outline manager for project organization, a remote PC file sync tool, Vietnamese TELEX mode, and a virtual keyboard optimized for DOSwriter editing on the go.**
 
 **Use DOSwriter to capture and organize your thoughts on your Android device for later computer formatting with publishing software.**
 
@@ -60,24 +62,23 @@
 - [Documentation](#documentation)
 
 ## Motivation
-DOSwriter is designed for writers who want the simplicity of old-school word processors combined with the power of small Android devices. It features a unique multi-buffer system, keyboard-first navig[...]
+DOSwriter is designed for writers who want the simplicity of old-school word processors combined with the power of small Android devices. It features a unique multi-buffer system, keyboard-first navigation, and optimization for Monochrome E-ink displays (like Boox, Supernote, and Bigme).
 
-There is a wide selection of compact, lightweight Bluetooth keyboards, and even heavier mechanical or ergonomic keyboards. Android devices are cheap and ubiquitous. This is an easy combination for a w[...]
+There is a wide selection of compact, lightweight Bluetooth keyboards, and even heavier mechanical or ergonomic keyboards. Android devices are cheap and ubiquitous. This is an easy combination for a writer deck if the writing software leverages the keyboard interface. The keyboard is where your words are taking shape so optimizing that supports efficient writing production. "Writing production" is a key phrase : If you are trying to write seriously there is the task of managing all the text towards a formatted document for publication.
 
 Desktop and laptop tools are great for formatting and publishing, but that limits your mobility. Writing is more enjoyable away from the machines.
 
 So I wrote DOSwriter. The irony is I spent 3 months hunched over my computer to create it so I would not be hunched over the computer. 
 
-And I could have worked with some of the many fine editors and writing tools available for Android. I tried several out but they just didn't click with me, through no fault of the software. Thus 3 mon[...]
+And I could have worked with some of the many fine editors and writing tools available for Android. I tried several out but they just didn't click with me, through no fault of the software. Thus 3 months of tool development vs. a few weeks of "trade-study" with available editors until I had a system that worked for me. Tool development is often a downfall of software projects because it eats up the budget meant for getting the application working.
 
 I think many editor developers wind up on the same path. They try out editors and nothing works so they write their own editor.
 
-DOSwriter is a capture of my writing mental model. I wrote professionally for many years so have some background for attempting such an audacious project. Before writing your own editor (and that is v[...]
+DOSwriter is a capture of my writing mental model. I wrote professionally for many years so have some background for attempting such an audacious project. Before writing your own editor (and that is very possible with AI tools now), give DOSwriter a whirl and see how it works or doesn't work for you.
 
-But if you are a fool and insist on developing your own tools, text processing and human interfacing is a fascinating topic of study and you will be richly rewarded for the effort. Nobody will care ab[...]
+But if you are a fool and insist on developing your own tools, text processing and human interfacing is a fascinating topic of study and you will be richly rewarded for the effort. Nobody will care about your app though. In fact you may get pelted with dung and chased off of internet forums for mentioning it.
 
 If this discussion interests you, I describe the DOSwriter design inspiration and use case on the [DOSwriter website.](https://doswriter.com/usecase/DOSwriterUseCase "DOSwriter Design Inspiration")
-
 ## Core Concepts
 DOSwriter is built around simple ideas : A small screen shouldn't force you to think about your writing in a small way, and the device human interface should not pull you out of the mental writing mod[...]
 
