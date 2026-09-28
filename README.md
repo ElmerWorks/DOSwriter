@@ -53,13 +53,8 @@
 
 # **Contents**
 
-## [**Motivation**](#motivation)
-## [**Core Concepts**](#core-concepts)
-## [**Key Features**](#key-features)
-## [**Getting Started**](#getting-started)
-## [**Documentation**](#documentation)
-
-## <a id="motivation"></a>**Motivation**
+## [**Motivation**](#motivation)## [**Core Concepts**](#core-concepts)## [**Key Features**](#key-features)## [**Getting Started**](#getting-started)## [**Documentation**](#documentation)
+## **Motivation**
 DOSwriter is designed for writers who want the simplicity of old-school word processors combined with the power of small Android devices. It features a unique multi-buffer system, keyboard-first navigation, and optimization for Monochrome E-ink displays (like Boox, Supernote, and Bigme).
 
 There is a wide selection of compact, lightweight Bluetooth keyboards, and even heavier mechanical or ergonomic keyboards. Android devices are cheap and ubiquitous. This is an easy combination for a writer deck if the writing software leverages the keyboard interface. The keyboard is where your words are taking shape so optimizing that supports efficient writing production. "Writing production" is a key phrase : If you are trying to write seriously there is the task of managing all the text towards a formatted document for publication.
@@ -79,8 +74,7 @@ But if you are a fool and insist on developing your own tools, text processing a
 If this discussion interests you, I describe the DOSwriter design inspiration and use case on the [DOSwriter website.](https://doswriter.com/usecase/DOSwriterUseCase "DOSwriter Design Inspiration")
 
 
-
-## **DOSwriter** <a id="core-concepts"></a>**Core Concepts**
+## **DOSwriter** **Core Concepts**
 DOSwriter is built around simple ideas : A small screen shouldn't force you to think about your writing in a small way, and the device human interface should not pull you out of the mental writing model.
 
 The editor is designed around the way writers actually work: capture text, move between sections, organize a growing manuscript, review the larger structure, work with reference materials, and eventually produce something you can share or print.
@@ -121,7 +115,7 @@ Rather than adding conventional desktop-style controls to a small Android screen
 
 
 
-### <a id="Visual-Aesthetics-and-Ergonomic-Writing-Setup"></a>1.  Visual Aesthetics and Ergonomic Writing Setup
+### 1.  Visual Aesthetics and Ergonomic Writing Setup
 
 DOSwriter creates a focused writing environment blending retro aesthetics with modern ergonomic controls. The typographic system replaces traditional point sizes with "Characters Per Line" (CPL) presets, using hardware profiling to ensure consistent text density across phones, tablets, and e-ink displays. 
 
@@ -159,7 +153,7 @@ Designed for use in any environment, DOSwriter features a robust theme engine op
 
 
 
-### <a id="Buffers-The-Working-Text-View"></a>2.  Buffers The Working Text View
+### 2.  Buffers The Working Text View
 At the heart of the application is the keyboard-oriented Working Buffer—a single-instance text view designed for speed and stability. DOSwriter buffers are built to handle large text files without lag, providing a stable "working stage" for your content. 
 
 Buffers are intuitive for working with text. There are 8 buffers corresponding to keyboard F1-F8 keys. Think of the them as a stack of notepads. The 8 DOSwriter buffers map conveniently to keyboard F keys. The Alphasmart Neo uses this paradigm.
@@ -169,7 +163,7 @@ The F1-F8 key paradigm adapts well to modern Bluetooth keyboards. Not all keyboa
 ![FKey-Buffers](images/keyboardF-buffers.png)
 
 
-### <a id="Multi-Buffer-Workspace-View"></a>3.  Workspaces : The Multi-Buffer Layout View
+### 3.  Workspaces : The Multi-Buffer Layout View
 
 The 8 buffer concept works well for file visualization on small devices. DOSwriter has fast buffer layout and preview commands.
 
@@ -206,7 +200,7 @@ Think of it as a digital corkboard for your writing. Instead of hunting through 
   <b>Click for Buffer Layout View Youtube video </b>
 </p>
 
-### <a id="The-Writing-Environment-Stay-in-the-Flow"></a>4.  The Writing Environment : Stay in the Flow
+### 4.  The Writing Environment : Stay in the Flow
 
 DOSwriter tries to keep routine computer operations from becoming interruptions to writing which helps manage work without leaving the writing environment.
 
@@ -224,7 +218,7 @@ Arrow keys and Enter navigate the file system, while DOSwriter remembers the wor
   <b>Click for DOSwriter File Manager Youtube video </b>
 </p>
 
-### <a id="Navigating-Bookmarks-Text-Collapse"></a>5.  Navigating Large Files on Small Screens : Bookmarks & Text Collapse
+### 5.  Navigating Large Files on Small Screens : Bookmarks & Text Collapse
 
 Small screens create a particular writing problem: you can concentrate on the current sentence or paragraph, but it is difficult to maintain awareness of a large document. DOSwriter provides tools to navigate that larger structure.
 
@@ -252,7 +246,7 @@ Focus on the paragraph you're writing without losing the structure around it.
 </p>
 
 
-### <a id="Visualizing-Filmstrip-Layout"></a>6.  Visualizing Document Structure : Filmstrip & Layout Views
+### 6.  Visualizing Document Structure : Filmstrip & Layout Views
 Scrolling through thousands of words on a small device gives you only a tiny window into the document. DOSwriter's Layout and Filmstrip Viewer provide a different way to navigate: reduce the document to a series of visual representations that can be scanned quickly.
 
 The idea came from the same visual principle used by a filmstrip or photographic proof sheet: you can recognize the structure of a large work without reading every word. The DOSwriter analog uses an adjustable page viewing area and paragraph-level previews scanning long documents and jumping directly to a paragraph for editing.
@@ -277,7 +271,7 @@ Filmstrip View is a magnifier for the structure of a document. Both views can al
 
 
 
-### <a id="Split-Screen"></a>7.  Split-Screen Editing and Image Slideshow 
+### 7.  Split-Screen Editing and Image Slideshow 
 
 Split-Screen Mode allows you to view and edit two buffers simultaneously. This is useful for comparing different chapters of a manuscript, taking notes from a PDF reference, or live-previewing Markdown formatting. Images and image slide shows can also be viewed in one panel while editing in the other.
 
@@ -291,7 +285,7 @@ Split-Screen Mode allows you to view and edit two buffers simultaneously. This i
 
 
 
-### <a id="Images-Reference"></a>8.  Using Images and Reference Materials
+### 8.  Using Images and Reference Materials
 
 Research, photographs, illustrations, diagrams, and other visual references can be part of the writing process. DOSwriter includes an integrated Image Viewer that can display images full-screen, move through a linked folder, zoom and pan, and run slideshows. Images can also be loaded directly into buffers.
 
@@ -302,16 +296,16 @@ PDF documents can be navigated directly from the keyboard, with page navigation,
 Reference material can remain part of the Workspace instead of becoming another application to manage. When linked in the Outline Manager they become part of an organized project strcuture.
 
 
-### <a id="Writing-Project-Management"></a>9. Managing Writing Projects
+### 9. Managing Writing Projects
 The Outline Manager acts as a hierarchical project hub, enabling you to organize cmanuscripts into custom containers, chapters, and nested folders. By linking individual external files into a cohesive project tree, it facilitates a high-level view of the document structure while providing instant, keyboard-driven navigation between sections. Complementing this, File Preview allows for rapid content verification during the selection process, ensuring the correct draft or research note is identified before loading, thus maintaining a continuous and focused creative state.
 
-### <a id="Markdown-Editing"></a>10. Markdown Editing with Live Preview
+### 10. Markdown Editing with Live Preview
 DOSwriter supports Markdown editing, Useful for structured formatting without leaving the app. The editor highlights syntax in real-time, while the Live Preview mode (`ALT+R`) renders headers, tables, lists, and images in a clean, professional layout. In split-screen mode, Preview works with the Markdown source code in the left panel with live preview in the right panel. This dual-mode approach allows for high-speed drafting in plain text with the confidence that the final output will be correctly formatted.
 
-### <a id="Review-Publication"></a>11. Review & Publication
+### 11. Review & Publication
 DOSwriter has basic PDF publishing for buffers and manuscript views. This allows a writer to move between: Write → Navigate → Review → Revise → Publish without abandoning the keyboard-centered environment. 
 
-### <a id="Desktop-File-Syncing"></a>12. Desktop File Syncing and Cloud Sharing
+### 12. Desktop File Syncing and Cloud Sharing
 #### Desktop Sync
 DOSwriter connects mobile drafting and desktop finishing through a streamlined, local-network sync server. You can wirelessly transmit  active buffers to companion desktop applications such as Notepad++ or VS Code.
 
@@ -320,13 +314,13 @@ I implemented the desktop sync server in the Go language, which works on Linux a
 #### Android App Sharing
 The app integrates with the Android system provider, allowing for the direct opening and saving of documents to cloud services like Google Drive, OneDrive, or Dropbox without manual file transfers. I have only testd it with Dropbox and Telegram but if your text makes it into the Android share buffer it should work with any app.
 
-### <a id="Hipster-PDA"></a>13. Built-In Hipster PDA
+### 13. Built-In Hipster PDA
 DOSwriter has a secondary 8-buffer Workspace that can be used for personal task management as described in this [DOSwriter link.](https://doswriter.com/instructions/DOSwriterPDA "DOSwriter PDA")
 
-### <a id="Intuitive-Commands-and-Integrated-Help"></a>14. Intuitive Commands and Integrated Help
+### 14. Intuitive Commands and Integrated Help
 Reflecting its keyboard-centric philosophy, DOSwriter minimizes menu-diving through a comprehensive system of intuitive `CTRL` and `ALT` command chords. For users needing a quick reference, the Integrated Help system provides searchable, Markdown-based documentation that can be summoned instantly with `CTRL+H`. This ensures that every tool—from advanced search and replace to hardware-specific settings—is always accessible at your fingertips.
 
-### <a id="Virtual-Keyboard"></a>15.  Virtual Keyboard
+### 15.  Virtual Keyboard
 For devices without physical hardware, the DOSwriter Virtual Keyboard offers a tailored input experience optimized for retro writing. Beyond standard alpha-numeric keys, it includes specialized layouts for navigation and secondary symbols, along with a unique **CTRL Lock** feature for modifier-heavy operations. This design ensures that the app remains a powerful, distraction-free writing tool on any touch-screen device.
 
 <p align="center">
@@ -338,7 +332,7 @@ For devices without physical hardware, the DOSwriter Virtual Keyboard offers a t
 <br>
 <br>
 
-### <a id="Auto-Save"></a>16.  Buffer and File Autosave
+### 16.  Buffer and File Autosave
 DOSwriter employs a tiered data protection strategy to ensure that your writing is never lost, ranging from automatic session persistence to manual file exports and remote synchronization.
 
 **1. Internal Session Persistence (Auto-Save)**
@@ -356,7 +350,7 @@ If you accidentally clear a buffer or delete a large block of text:
 
 
 
-## <a id="Key-Features"></a>**Key Features**
+## **Key Features**
 - **Distraction-Free Editing**: The default visual mode is fullscreen with no icon clutter or Android distractions. 
 - **Text-Only**: DOSwriter uses Unicode text fonts which are portable between all writing applications and operating systems.
 - **Multi-Buffer Workspace**: Instant hotkey access to 8 active documents. 
@@ -374,7 +368,7 @@ If you accidentally clear a buffer or delete a large block of text:
 - **E-Ink Optimized**: High-contrast UI elements, custom `[+]` Fold and `[BK]` Bookmark icons, and integrated hardware drivers for Onyx/Boox and Supernote.
 - **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
 
-# <a id="Getting-Started"></a>**Getting Started**
+# **Getting Started**
 1. **Installation**: Deploy the APK to your Android device (Min SDK 23).
 2. **Permissions**: Grant storage permissions to enable file opening and saving.
 3. **Linking Folders**: Go to `ALT-S (SETTINGS) > File Manager` to link your primary writing folder.
@@ -454,7 +448,7 @@ If you accidentally clear a buffer or delete a large block of text:
 - **Text Collapse**: Collapse paragraphs with `CTRL-J` to focus on specific sections. Features a high-contrast `[+]` marker with text preview.
 - **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
 
-# <a id="Documentation"></a>**Documentation**
+# **Documentation**
 - [Function & Keyboard Map](./docs/DOSwriter-Function-Keyboard-Map.md)
 - [Menus & Settings](./docs/DOSwriter-Menus-Settings.md)
 - [DOSwriter File Manager](./docs/DOSwriter-File-Manager.md)
