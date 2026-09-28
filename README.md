@@ -56,9 +56,9 @@
 # Contents
 
 - [Motivation](#motivation)
-- [Core Concepts](#core-concepts)
 - [Key Features](#key-features)
 - [Getting Started](#getting-started)
+- [Core Concept Details](#core-concept-details)
 - [Documentation](#documentation)
 
 ## Motivation
@@ -79,7 +79,114 @@ DOSwriter is a capture of my writing mental model. I wrote professionally for ma
 But if you are a fool and insist on developing your own tools, text processing and human interfacing is a fascinating topic of study and you will be richly rewarded for the effort. Nobody will care about your app though. In fact you may get pelted with dung and chased off of internet forums for mentioning it.
 
 If this discussion interests you, I describe the DOSwriter design inspiration and use case on the [DOSwriter website.](https://doswriter.com/usecase/DOSwriterUseCase "DOSwriter Design Inspiration")
-## Core Concepts
+
+
+--- 
+
+## Key Features
+- **Distraction-Free Editing**: The default visual mode is fullscreen with no icon clutter or Android distractions. 
+- **Text-Only**: DOSwriter uses Unicode text fonts which are portable between all writing applications and operating systems.
+- **Multi-Buffer Workspace**: Instant hotkey access to 8 active documents. 
+- **Instant Workspace Viewing**   Use `Esc` to view a visual layout of all buffers with persistent thumbnails.
+- **Scratchpad**: A dedicated 9th buffer for quick notes with auto-flushing to a permanent log file.
+- **Visual Aesthetics**: Hotkey adjustable ergonomic color themes, fonts, margins, screen brightness.
+- **Splitscreen Mode**: Splitscreen view and editing of multiple buffers or images.
+- **Text Processing**: Macros, Bookmarks, and Text Collapse
+- **Writing Visualization**: Tools for working with large text files on small devices.
+- **Typewriter Mode**: Typewriter editing and scrolling with demo mode.
+- **File Manager**: Keyboard-centric File Browser and file operations centered on your working folders.
+- **Outline Manager**: Link work files in project trees with preview selection.
+- **Markdown & PDF Support**: Full Markdown rendering (including tables) and PDF compilation.
+- **Desktop Sync**: Real-time synchronization with a desktop host via network socket for seamless "mobile-to-PC" workflows.
+- **E-Ink Optimized**: High-contrast UI elements, custom `[+]` Fold and `[BK]` Bookmark icons, and integrated hardware drivers for Onyx/Boox and Supernote.
+- **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
+
+[Back to Contents](#contents)
+
+# Getting Started
+1. **Installation**: Deploy the APK to your Android device (Min SDK 23).
+2. **Permissions**: Grant storage permissions to enable file opening and saving.
+3. **Linking Folders**: Go to `ALT-S (SETTINGS) > File Manager` to link your primary writing folder.
+4. **Learn the Keys**: DOSwriter is built for hardware keyboards but includes a powerful virtual layout. Press `ALT-H` anytime for the help system.
+
+[Back to Contents](#contents)
+
+## App Operation
+
+### App Integration & Workflow
+- **Direct Entry**: Launches immediately into a keyboard-focused file editor. No splash screen delays (Help popups can be turned off in Settings).
+- **Hotkeys**: Standardized shortcuts for all operations. Use `CTRL-ALT-X` to exit or `ALT-X` to quickly minimize the app.
+- **Sharing**: Integrated Android sharing system allows you to send buffer content to other apps instantly.
+
+### The Multi-Buffer Paradigm
+- **Leverages Keyboard Layouts**: Uses `F1-F8` or `Alt1-Alt8` like a stack of notepads for instant access.
+- **8+1 System**: Work on 8 standard documents plus a dedicated 9th **Scratchpad** `F9`.
+- **Buffer Layout (`Esc`)**: A bird's-eye view of your entire workspace with persistent thumbnails and live file info. Supports finger-tap selection.
+- **Split-Screen**: View two buffers at once (Vertical or Horizontal) or compare two sections of the same file.
+- **Buffer Status**: `CTRL-H` hides or shows current buffer filename and details .
+
+### Text Navigation
+- **Keyboard Centric**: Designed for hardware keyboards with standard and power-user shortcuts.
+- **Precision Movement**: 
+  - **Arrows**: Character and visual line movement.
+  - **CTRL + Arrows**: Word and paragraph jumps for rapid traversal.
+  - **ALT + Arrows**: Sentence jumps or jumping to visual line start/end.
+- **Selection**: Hold `SHIFT` with any navigation key to select text blocks. Supports system-wide and internal clipboard management.
+
+### Multiple Workspaces
+- **Default Mode**: Your primary environment for creative writing.
+- **To-Do Mode**: Switch to a dedicated 8-buffer workspace via `ALT-W` designed for task tracking and project management.
+
+### Viewport & Typography Control
+- **Precision Font Control**: Adjust font size with `CTRL-` and `CTRL+`, and line height with `CTRL-L`
+- **Margins**: Set custom side and top/bottom margins to create the perfect writing focus area.
+- **Vertical Offset**: Shift the entire text block vertically to center your work on your device's unique screen or case.
+
+### Visual Themes & Brightness
+- **E-Ink Specific Color Themes**: High-contrast modes like "Classic", "E-Ink", and "CRT" designed for maximum legibility.
+- **Day/Night Mode**: Automatic theme switching based on your local time.
+- **Brightness Control**: Adjust system brightness directly from the app using `ALT-` and `ALT-+`.
+- **Cycle Themes**: Cycle forward and back through available Themes with `CTRL-T` and `CTRL-ALT-T`
+- **Display Themes**: Displays current Theme name `CTRL-SHIFT-T`
+- **Custom Themes**: Define custom color themes using RGB values in Settings>Theme
+
+### Editing Modes
+- **Plain Text**: Efficient editing for standard `.txt` files with full support for power tools like folds and bookmarks.
+- **Typewriter Mode**: Keep your focus point centered. Features include "Stationary Cursor" (platen moves) or "Moving Cursor" modes.
+- **Markdown Support**: Dedicated rendering engine for `.md` files. Toggle live preview with `ALT-R`.
+- **Split-Screen Rendering**: A unique side-by-side workflow. Edit Markdown source in one buffer while the second buffer displays the live rendered output (automatic for `.md` files).
+
+### Publishing
+- **PDF Compilation**: Export your work in Standard A4, Manuscript WYSWYG, or a unique 8-in-1 Landscape "Mini-Book" format.
+- **Markdown Rendering**: Full live preview of Markdown files including tables and images.
+
+### Text Viewing & Manuscript Management
+- **Filmstrip Viewer**: View your document as a series of individual pages for easy proofreading.
+- **Layout Grid**: A 4 or 8-page "light table" view to see the flow and structure of your manuscript.
+
+### Cursor & Typewriter Control
+- **Custom Styles**: Choose between Block, Thin/Thick Caret, Underline, and Retro styles.
+- **Locator**: A special high-speed blink to help you find your cursor in large documents.
+
+### File Management & Supported Types
+- **Supported Files**: Seamlessly handles `.txt`, `.md` (Markdown), `.pdf`, `.jpg`, `.png`, and `.gif` files.
+- **Dual Browsers**: Toggle between the standard **Android System Browser** and the custom, keyboard-optimized **DOSwriter File Browser**.
+- **Images**: Link local folders for background reference images or use the built-in **Slideshow Viewer**.
+
+### Virtual Keyboard
+- **Custom Layouts**: Optimized Alpha, Punctuation, and Numeric layers.
+- **CTRL Lock**: A virtual "Sticky Key" (`⎈L`) that allows you to perform complex chords and navigation with single taps.
+- **Telex Support**: Integrated Vietnamese TELEX input mode.
+
+### Power Tools
+- **Outline Manager**: Organize large projects (`CTRL-ALT-O`). Link multiple local or remote files into folder hierarchies with preview.
+- **Macros**: Use `CTRL-ALT-M` for the macro console or `CTRL-ALT->>` to define quick snippets.
+- **Text Collapse**: Collapse paragraphs with `CTRL-J` to focus on specific sections. Features a high-contrast `[+]` marker with text preview.
+- **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
+
+[Back to Contents](#contents)
+
+## Core Concept Details
 DOSwriter is built around simple ideas : A small screen shouldn't force you to think about your writing in a small way, and the device human interface should not pull you out of the mental writing model.
 
 The editor is designed around the way writers actually work: capture text, move between sections, organize a growing manuscript, review the larger structure, work with reference materials, and eventually produce something you can share or print.
@@ -363,110 +470,9 @@ If you accidentally clear a buffer or delete a large block of text:
 
 [Back to Core Concepts](#core-concepts)
 
---- 
 
-## Key Features
-- **Distraction-Free Editing**: The default visual mode is fullscreen with no icon clutter or Android distractions. 
-- **Text-Only**: DOSwriter uses Unicode text fonts which are portable between all writing applications and operating systems.
-- **Multi-Buffer Workspace**: Instant hotkey access to 8 active documents. 
-- **Instant Workspace Viewing**   Use `Esc` to view a visual layout of all buffers with persistent thumbnails.
-- **Scratchpad**: A dedicated 9th buffer for quick notes with auto-flushing to a permanent log file.
-- **Visual Aesthetics**: Hotkey adjustable ergonomic color themes, fonts, margins, screen brightness.
-- **Splitscreen Mode**: Splitscreen view and editing of multiple buffers or images.
-- **Text Processing**: Macros, Bookmarks, and Text Collapse
-- **Writing Visualization**: Tools for working with large text files on small devices.
-- **Typewriter Mode**: Typewriter editing and scrolling with demo mode.
-- **File Manager**: Keyboard-centric File Browser and file operations centered on your working folders.
-- **Outline Manager**: Link work files in project trees with preview selection.
-- **Markdown & PDF Support**: Full Markdown rendering (including tables) and PDF compilation.
-- **Desktop Sync**: Real-time synchronization with a desktop host via network socket for seamless "mobile-to-PC" workflows.
-- **E-Ink Optimized**: High-contrast UI elements, custom `[+]` Fold and `[BK]` Bookmark icons, and integrated hardware drivers for Onyx/Boox and Supernote.
-- **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
 
-[Back to Contents](#contents)
 
-# Getting Started
-1. **Installation**: Deploy the APK to your Android device (Min SDK 23).
-2. **Permissions**: Grant storage permissions to enable file opening and saving.
-3. **Linking Folders**: Go to `ALT-S (SETTINGS) > File Manager` to link your primary writing folder.
-4. **Learn the Keys**: DOSwriter is built for hardware keyboards but includes a powerful virtual layout. Press `ALT-H` anytime for the help system.
-
-[Back to Contents](#contents)
-
-## App Operation
-
-### App Integration & Workflow
-- **Direct Entry**: Launches immediately into a keyboard-focused file editor. No splash screen delays (Help popups can be turned off in Settings).
-- **Hotkeys**: Standardized shortcuts for all operations. Use `CTRL-ALT-X` to exit or `ALT-X` to quickly minimize the app.
-- **Sharing**: Integrated Android sharing system allows you to send buffer content to other apps instantly.
-
-### The Multi-Buffer Paradigm
-- **Leverages Keyboard Layouts**: Uses `F1-F8` or `Alt1-Alt8` like a stack of notepads for instant access.
-- **8+1 System**: Work on 8 standard documents plus a dedicated 9th **Scratchpad** `F9`.
-- **Buffer Layout (`Esc`)**: A bird's-eye view of your entire workspace with persistent thumbnails and live file info. Supports finger-tap selection.
-- **Split-Screen**: View two buffers at once (Vertical or Horizontal) or compare two sections of the same file.
-- **Buffer Status**: `CTRL-H` hides or shows current buffer filename and details .
-
-### Text Navigation
-- **Keyboard Centric**: Designed for hardware keyboards with standard and power-user shortcuts.
-- **Precision Movement**: 
-  - **Arrows**: Character and visual line movement.
-  - **CTRL + Arrows**: Word and paragraph jumps for rapid traversal.
-  - **ALT + Arrows**: Sentence jumps or jumping to visual line start/end.
-- **Selection**: Hold `SHIFT` with any navigation key to select text blocks. Supports system-wide and internal clipboard management.
-
-### Multiple Workspaces
-- **Default Mode**: Your primary environment for creative writing.
-- **To-Do Mode**: Switch to a dedicated 8-buffer workspace via `ALT-W` designed for task tracking and project management.
-
-### Viewport & Typography Control
-- **Precision Font Control**: Adjust font size with `CTRL-` and `CTRL+`, and line height with `CTRL-L`
-- **Margins**: Set custom side and top/bottom margins to create the perfect writing focus area.
-- **Vertical Offset**: Shift the entire text block vertically to center your work on your device's unique screen or case.
-
-### Visual Themes & Brightness
-- **E-Ink Specific Color Themes**: High-contrast modes like "Classic", "E-Ink", and "CRT" designed for maximum legibility.
-- **Day/Night Mode**: Automatic theme switching based on your local time.
-- **Brightness Control**: Adjust system brightness directly from the app using `ALT-` and `ALT-+`.
-- **Cycle Themes**: Cycle forward and back through available Themes with `CTRL-T` and `CTRL-ALT-T`
-- **Display Themes**: Displays current Theme name `CTRL-SHIFT-T`
-- **Custom Themes**: Define custom color themes using RGB values in Settings>Theme
-
-### Editing Modes
-- **Plain Text**: Efficient editing for standard `.txt` files with full support for power tools like folds and bookmarks.
-- **Typewriter Mode**: Keep your focus point centered. Features include "Stationary Cursor" (platen moves) or "Moving Cursor" modes.
-- **Markdown Support**: Dedicated rendering engine for `.md` files. Toggle live preview with `ALT-R`.
-- **Split-Screen Rendering**: A unique side-by-side workflow. Edit Markdown source in one buffer while the second buffer displays the live rendered output (automatic for `.md` files).
-
-### Publishing
-- **PDF Compilation**: Export your work in Standard A4, Manuscript WYSWYG, or a unique 8-in-1 Landscape "Mini-Book" format.
-- **Markdown Rendering**: Full live preview of Markdown files including tables and images.
-
-### Text Viewing & Manuscript Management
-- **Filmstrip Viewer**: View your document as a series of individual pages for easy proofreading.
-- **Layout Grid**: A 4 or 8-page "light table" view to see the flow and structure of your manuscript.
-
-### Cursor & Typewriter Control
-- **Custom Styles**: Choose between Block, Thin/Thick Caret, Underline, and Retro styles.
-- **Locator**: A special high-speed blink to help you find your cursor in large documents.
-
-### File Management & Supported Types
-- **Supported Files**: Seamlessly handles `.txt`, `.md` (Markdown), `.pdf`, `.jpg`, `.png`, and `.gif` files.
-- **Dual Browsers**: Toggle between the standard **Android System Browser** and the custom, keyboard-optimized **DOSwriter File Browser**.
-- **Images**: Link local folders for background reference images or use the built-in **Slideshow Viewer**.
-
-### Virtual Keyboard
-- **Custom Layouts**: Optimized Alpha, Punctuation, and Numeric layers.
-- **CTRL Lock**: A virtual "Sticky Key" (`⎈L`) that allows you to perform complex chords and navigation with single taps.
-- **Telex Support**: Integrated Vietnamese TELEX input mode.
-
-### Power Tools
-- **Outline Manager**: Organize large projects (`CTRL-ALT-O`). Link multiple local or remote files into folder hierarchies with preview.
-- **Macros**: Use `CTRL-ALT-M` for the macro console or `CTRL-ALT->>` to define quick snippets.
-- **Text Collapse**: Collapse paragraphs with `CTRL-J` to focus on specific sections. Features a high-contrast `[+]` marker with text preview.
-- **Scripting Engine**: Automate repetitive tasks or create custom presentation modes with a built-in command script language.
-
-[Back to Contents](#contents)
 
 # Documentation
 - [Function & Keyboard Map](./docs/DOSwriter-Function-Keyboard-Map.md)
