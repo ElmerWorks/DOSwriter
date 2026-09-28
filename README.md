@@ -103,7 +103,7 @@ Rather than adding conventional desktop-style controls to a small Android screen
 - [15. Virtual Keyboard](#15-virtual-keyboard)
 - [16. Buffer and File Autosave](#16-buffer-and-file-autosave)
 
-
+[Back to Contents](#contents)
 
 ### 1. Visual Aesthetics and Ergonomic Writing Setup
 
