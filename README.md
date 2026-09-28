@@ -179,16 +179,16 @@ Think of it as a digital corkboard for your writing. Instead of hunting through 
   <br>
   <b>The Layout View thumbnails can be changed with any image. 512x512 px is optimal.</b>
 </p>
-
-
-
 <br>
+
 
 [![Buffer Layout View Demo](https://img.youtube.com/vi/qcl8oykMreY/hqdefault.jpg)](https://youtu.be/o8U3ulJxO6g)
 
 <p align="left">
   <b>Click for Buffer Layout View Youtube video </b>
 </p>
+
+[Back to Core Concepts](#core-concepts)
 
 ### 4. The Writing Environment Stay in the Flow
 
@@ -213,12 +213,12 @@ Arrow keys and Enter navigate the file system, while DOSwriter remembers the wor
 
 ### 5. Navigating Large Files on Small Screens Bookmarks and Text Collapse
 
-Small screens create a particular writing problem: you can concentrate on the current sentence or paragraph, but it is difficult to maintain awareness of a large document. DOSwriter provides tools to [...]
+Small screens create a particular writing problem: you can concentrate on the current sentence or paragraph, but it is difficult to maintain awareness of a large document. DOSwriter provides tools to navigate that larger structure.
 
 [Back to Core Concepts](#core-concepts)
 
 #### 6. Bookmarks
-Bookmarks let you mark important locations in a document and return to them instantly. A high-contrast `[BK]` marker and dimmed contextual preview remain visible in the margin, while the Bookmark Menu[...]
+Bookmarks let you mark important locations in a document and return to them instantly. A high-contrast `[BK]` marker and dimmed contextual preview remain visible in the margin, while the Bookmark Menu provides numbered keyboard navigation.
 <br>
 
 [![Bookmarks Video](https://img.youtube.com/vi/qcl8oykMreY/hqdefault.jpg)](https://youtu.be/fKfPv9h6nj4)
@@ -230,7 +230,7 @@ Bookmarks let you mark important locations in a document and return to them inst
 [Back to Core Concepts](#core-concepts)
 
 #### 7. Text Collapse
-Collapse lets you temporarily hide material that you don't need to see while working—research notes, older drafts, completed sections, or other non-essential material. Blocks can be collapsed manual[...]
+Collapse lets you temporarily hide material that you don't need to see while working—research notes, older drafts, completed sections, or other non-essential material. Blocks can be collapsed manually or by defining patterns such as //NOTES or (DRAFT). A compact preview remains visible so the hidden material is still identifiable. Text Collapse lets users hide completed sections or research notes behind a simple `[+]` icon, decluttering the viewport and allowing the writer to focus purely on the active scene.
 
 Focus on the paragraph you're writing without losing the structure around it.
 <br>
@@ -244,9 +244,9 @@ Focus on the paragraph you're writing without losing the structure around it.
 [Back to Core Concepts](#core-concepts)
 
 ### 6. Visualizing Document Structure Filmstrip and Layout Views
-Scrolling through thousands of words on a small device gives you only a tiny window into the document. DOSwriter's Layout and Filmstrip Viewer provide a different way to navigate: reduce the document [...]
+Scrolling through thousands of words on a small device gives you only a tiny window into the document. DOSwriter's Layout and Filmstrip Viewer provide a different way to navigate: reduce the document to a series of visual representations that can be scanned quickly.
 
-The idea came from the same visual principle used by a filmstrip or photographic proof sheet: you can recognize the structure of a large work without reading every word. The DOSwriter analog uses an a[...]
+The idea came from the same visual principle used by a filmstrip or photographic proof sheet: you can recognize the structure of a large work without reading every word. The DOSwriter analog uses an adjustable page viewing area and paragraph-level previews scanning long documents and jumping directly to a paragraph for editing.
 
 [Back to Core Concepts](#core-concepts)
 
@@ -271,7 +271,7 @@ Filmstrip View is a magnifier for the structure of a document. Both views can al
 
 ### 7. Split-Screen Editing and Image Slideshow 
 
-Split-Screen Mode allows you to view and edit two buffers simultaneously. This is useful for comparing different chapters of a manuscript, taking notes from a PDF reference, or live-previewing Markdow[...]
+Split-Screen Mode allows you to view and edit two buffers simultaneously. This is useful for comparing different chapters of a manuscript, taking notes from a PDF reference, or live-previewing Markdown formatting. Images and image slide shows can also be viewed in one panel while editing in the other.
 
 <br>
 
@@ -285,41 +285,41 @@ Split-Screen Mode allows you to view and edit two buffers simultaneously. This i
 
 ### 8. Using Images and Reference Materials
 
-Research, photographs, illustrations, diagrams, and other visual references can be part of the writing process. DOSwriter includes an integrated Image Viewer that can display images full-screen, move [...]
+Research, photographs, illustrations, diagrams, and other visual references can be part of the writing process. DOSwriter includes an integrated Image Viewer that can display images full-screen, move through a linked folder, zoom and pan, and run slideshows. Images can also be loaded directly into buffers.
 
 Markdown images can participate in the same workflow, and DOSwriter can use Markdown presentation mode to turn content into a sequence of rendered slides.
 
 PDF documents can be navigated directly from the keyboard, with page navigation, and zoom. Favorites (bookmarks) can be added to the PDF view and exported to a text file.
 
-Reference material can remain part of the Workspace instead of becoming another application to manage. When linked in the Outline Manager they become part of an organized project strcuture.
+Reference material can remain part of the Workspace instead of becoming another application to manage. When linked in the Outline Manager they become part of an organized project structure.
 
 [Back to Core Concepts](#core-concepts)
 
 ### 9. Managing Writing Projects
-The Outline Manager acts as a hierarchical project hub, enabling you to organize cmanuscripts into custom containers, chapters, and nested folders. By linking individual external files into a cohesive[...]
+The Outline Manager acts as a hierarchical project hub, enabling you to organize cmanuscripts into custom containers, chapters, and nested folders. By linking individual external files into a cohesive project tree, it facilitates a high-level view of the document structure while providing instant, keyboard-driven navigation between sections. Complementing this, File Preview allows for rapid content verification during the selection process, ensuring the correct draft or research note is identified before loading, thus maintaining a continuous and focused creative state.
 
 [Back to Core Concepts](#core-concepts)
 
 ### 10. Markdown Editing with Live Preview
-DOSwriter supports Markdown editing, Useful for structured formatting without leaving the app. The editor highlights syntax in real-time, while the Live Preview mode (`ALT+R`) renders headers, tables,[...]
+DOSwriter supports Markdown editing, Useful for structured formatting without leaving the app. The editor highlights syntax in real-time, while the Live Preview mode (`ALT+R`) renders headers, tables, lists, and images in a clean, professional layout. In split-screen mode, Preview works with the Markdown source code in the left panel with live preview in the right panel. This dual-mode approach allows for high-speed drafting in plain text with the confidence that the final output will be correctly formatted.
 
 [Back to Core Concepts](#core-concepts)
 
 ### 11. Review and Publication
-DOSwriter has basic PDF publishing for buffers and manuscript views. This allows a writer to move between: Write → Navigate → Review → Revise → Publish without abandoning the keyboard-centered[...]
+DOSwriter has basic PDF publishing for buffers and manuscript views. This allows a writer to move between: Write → Navigate → Review → Revise → Publish without abandoning the keyboard-centered environment. 
 
 [Back to Core Concepts](#core-concepts)
 
 ### 12. Desktop File Syncing and Cloud Sharing
 #### Desktop Sync
-DOSwriter connects mobile drafting and desktop finishing through a streamlined, local-network sync server. You can wirelessly transmit  active buffers to companion desktop applications such as Notepad[...]
+DOSwriter connects mobile drafting and desktop finishing through a streamlined, local-network sync server. You can wirelessly transmit  active buffers to companion desktop applications such as Notepad++ or VS Code.
 
-I implemented the desktop sync server in the Go language, which works on Linux and Windows, and possibly Apple (did not try it). I have not used the sync tool much but when I have I am surprised how w[...]
+I implemented the desktop sync server in the Go language, which works on Linux and Windows, and possibly Apple (did not try it). I have not used the sync tool much but when I have I am surprised how well it works. The server keeps running unless you shut it down, so you can connect from multiple devices at different times. When I finish documenting the app I expect to use this feature more often.
 
 [Back to Core Concepts](#core-concepts)
 
 #### Android App Sharing
-The app integrates with the Android system provider, allowing for the direct opening and saving of documents to cloud services like Google Drive, OneDrive, or Dropbox without manual file transfers. I [...]
+The app integrates with the Android system provider, allowing for the direct opening and saving of documents to cloud services like Google Drive, OneDrive, or Dropbox without manual file transfers. I have only testd it with Dropbox and Telegram but if your text makes it into the Android share buffer it should work with any app.
 
 [Back to Core Concepts](#core-concepts)
 
@@ -329,12 +329,12 @@ DOSwriter has a secondary 8-buffer Workspace that can be used for personal task 
 [Back to Core Concepts](#core-concepts)
 
 ### 14. Intuitive Commands and Integrated Help
-Reflecting its keyboard-centric philosophy, DOSwriter minimizes menu-diving through a comprehensive system of intuitive `CTRL` and `ALT` command chords. For users needing a quick reference, the Integr[...]
+Reflecting its keyboard-centric philosophy, DOSwriter minimizes menu-diving through a comprehensive system of intuitive `CTRL` and `ALT` command chords. For users needing a quick reference, the Integrated Help system provides searchable, Markdown-based documentation that can be summoned instantly with `CTRL+H`. This ensures that every tool—from advanced search and replace to hardware-specific settings—is always accessible at your fingertips.
 
 [Back to Core Concepts](#core-concepts)
 
 ### 15. Virtual Keyboard
-For devices without physical hardware, the DOSwriter Virtual Keyboard offers a tailored input experience optimized for retro writing. Beyond standard alpha-numeric keys, it includes specialized layout[...]
+For devices without physical hardware, the DOSwriter Virtual Keyboard offers a tailored input experience optimized for retro writing. Beyond standard alpha-numeric keys, it includes specialized layouts for navigation and secondary symbols, along with a unique **CTRL Lock** feature for modifier-heavy operations. This design ensures that the app remains a powerful, distraction-free writing tool on any touch-screen device.
 
 <p align="center">
   <img src="images/VirtualKeyboard.png" alt="Virtua-Keyboard">
@@ -349,6 +349,7 @@ For devices without physical hardware, the DOSwriter Virtual Keyboard offers a t
 
 ### 16. Buffer and File Autosave
 DOSwriter employs a tiered data protection strategy to ensure that your writing is never lost, ranging from automatic session persistence to manual file exports and remote synchronization.
+
 
 [Back to Core Concepts](#core-concepts)
 
