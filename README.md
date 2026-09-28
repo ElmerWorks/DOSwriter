@@ -81,7 +81,7 @@ But if you are a fool and insist on developing your own tools, text processing a
 If this discussion interests you, I describe the DOSwriter design inspiration and use case on the [DOSwriter website.](https://doswriter.com/usecase/DOSwriterUseCase "DOSwriter Design Inspiration")
 
 [Back to Contents](#contents)
---- 
+
 
 ## Key Features
 - **Distraction-Free Editing**: The default visual mode is fullscreen with no icon clutter or Android distractions. 
