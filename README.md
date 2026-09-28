@@ -80,7 +80,7 @@ If this discussion interests you, I describe the DOSwriter design inspiration an
 
 
 
-## **DOSwriter** <a id="Core-Concepts"></a>**Core Concepts**
+## **DOSwriter** <a id="core-concepts"></a>**Core Concepts**
 DOSwriter is built around simple ideas : A small screen shouldn't force you to think about your writing in a small way, and the device human interface should not pull you out of the mental writing model.
 
 The editor is designed around the way writers actually work: capture text, move between sections, organize a growing manuscript, review the larger structure, work with reference materials, and eventually produce something you can share or print.
