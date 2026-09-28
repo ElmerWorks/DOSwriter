@@ -51,21 +51,13 @@
 <br>
 <br>
 
-# **Contents**
+# Contents
 
 - [Motivation](#motivation)
-
 - [Core Concepts](#core-concepts)
-
 - [Key Features](#key-features)
-
 - [Getting Started](#getting-started)
-
 - [Documentation](#documentation)
-
-<br>
-<br>
-
 
 ## Motivation
 DOSwriter is designed for writers who want the simplicity of old-school word processors combined with the power of small Android devices. It features a unique multi-buffer system, keyboard-first navig[...]
@@ -85,7 +77,6 @@ DOSwriter is a capture of my writing mental model. I wrote professionally for ma
 But if you are a fool and insist on developing your own tools, text processing and human interfacing is a fascinating topic of study and you will be richly rewarded for the effort. Nobody will care ab[...]
 
 If this discussion interests you, I describe the DOSwriter design inspiration and use case on the [DOSwriter website.](https://doswriter.com/usecase/DOSwriterUseCase "DOSwriter Design Inspiration")
-
 
 ## Core Concepts
 DOSwriter is built around simple ideas : A small screen shouldn't force you to think about your writing in a small way, and the device human interface should not pull you out of the mental writing mod[...]
