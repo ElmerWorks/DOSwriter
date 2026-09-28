@@ -138,7 +138,7 @@ Designed for use in any environment, DOSwriter features a robust theme engine op
   <b>Click for Viewport Margins Demo Youtube video </b>
 </p>
 
-
+[Back to Core Concepts](#core-concepts)
 
 
 
@@ -207,10 +207,13 @@ Arrow keys and Enter navigate the file system, while DOSwriter remembers the wor
 <p align="left">
   <b>Click for DOSwriter File Manager Youtube video </b>
 </p>
+[Back to Core Concepts](#core-concepts)
 
 ### 5. Navigating Large Files on Small Screens Bookmarks and Text Collapse
 
 Small screens create a particular writing problem: you can concentrate on the current sentence or paragraph, but it is difficult to maintain awareness of a large document. DOSwriter provides tools to [...]
+
+[Back to Core Concepts](#core-concepts)
 
 #### 6. Bookmarks
 Bookmarks let you mark important locations in a document and return to them instantly. A high-contrast `[BK]` marker and dimmed contextual preview remain visible in the margin, while the Bookmark Menu[...]
@@ -222,6 +225,7 @@ Bookmarks let you mark important locations in a document and return to them inst
   <b>Click for DOSwriter Bookmarks Youtube video </b>
 </p>
 
+[Back to Core Concepts](#core-concepts)
 
 #### 7. Text Collapse
 Collapse lets you temporarily hide material that you don't need to see while working—research notes, older drafts, completed sections, or other non-essential material. Blocks can be collapsed manual[...]
@@ -235,11 +239,14 @@ Focus on the paragraph you're writing without losing the structure around it.
   <b>Click for DOSwriter Text Collapse Youtube video </b>
 </p>
 
+[Back to Core Concepts](#core-concepts)
+
 ### 6. Visualizing Document Structure Filmstrip and Layout Views
 Scrolling through thousands of words on a small device gives you only a tiny window into the document. DOSwriter's Layout and Filmstrip Viewer provide a different way to navigate: reduce the document [...]
 
 The idea came from the same visual principle used by a filmstrip or photographic proof sheet: you can recognize the structure of a large work without reading every word. The DOSwriter analog uses an a[...]
 
+[Back to Core Concepts](#core-concepts)
 
 #### Layout View
 Displays the document as a grid of miniature pages. Scan the grid, select a page, and return directly to that location in the text.
@@ -257,7 +264,7 @@ Filmstrip View is a magnifier for the structure of a document. Both views can al
   <b>Click for DOSwriter Manuscript Viewer Youtube video </b>
 </p>
 
-
+[Back to Core Concepts](#core-concepts)
 
 
 ### 7. Split-Screen Editing and Image Slideshow 
@@ -272,7 +279,7 @@ Split-Screen Mode allows you to view and edit two buffers simultaneously. This i
   <b>Click for DOSwriter Split-Screen Mode Youtube video </b>
 </p>
 
-
+[Back to Core Concepts](#core-concepts)
 
 ### 8. Using Images and Reference Materials
 
@@ -284,15 +291,22 @@ PDF documents can be navigated directly from the keyboard, with page navigation,
 
 Reference material can remain part of the Workspace instead of becoming another application to manage. When linked in the Outline Manager they become part of an organized project strcuture.
 
+[Back to Core Concepts](#core-concepts)
 
 ### 9. Managing Writing Projects
 The Outline Manager acts as a hierarchical project hub, enabling you to organize cmanuscripts into custom containers, chapters, and nested folders. By linking individual external files into a cohesive[...]
 
+[Back to Core Concepts](#core-concepts)
+
 ### 10. Markdown Editing with Live Preview
 DOSwriter supports Markdown editing, Useful for structured formatting without leaving the app. The editor highlights syntax in real-time, while the Live Preview mode (`ALT+R`) renders headers, tables,[...]
 
+[Back to Core Concepts](#core-concepts)
+
 ### 11. Review and Publication
 DOSwriter has basic PDF publishing for buffers and manuscript views. This allows a writer to move between: Write → Navigate → Review → Revise → Publish without abandoning the keyboard-centered[...]
+
+[Back to Core Concepts](#core-concepts)
 
 ### 12. Desktop File Syncing and Cloud Sharing
 #### Desktop Sync
@@ -300,14 +314,22 @@ DOSwriter connects mobile drafting and desktop finishing through a streamlined, 
 
 I implemented the desktop sync server in the Go language, which works on Linux and Windows, and possibly Apple (did not try it). I have not used the sync tool much but when I have I am surprised how w[...]
 
+[Back to Core Concepts](#core-concepts)
+
 #### Android App Sharing
 The app integrates with the Android system provider, allowing for the direct opening and saving of documents to cloud services like Google Drive, OneDrive, or Dropbox without manual file transfers. I [...]
+
+[Back to Core Concepts](#core-concepts)
 
 ### 13. Built-In Hipster PDA
 DOSwriter has a secondary 8-buffer Workspace that can be used for personal task management as described in this [DOSwriter link.](https://doswriter.com/instructions/DOSwriterPDA "DOSwriter PDA")
 
+[Back to Core Concepts](#core-concepts)
+
 ### 14. Intuitive Commands and Integrated Help
 Reflecting its keyboard-centric philosophy, DOSwriter minimizes menu-diving through a comprehensive system of intuitive `CTRL` and `ALT` command chords. For users needing a quick reference, the Integr[...]
+
+[Back to Core Concepts](#core-concepts)
 
 ### 15. Virtual Keyboard
 For devices without physical hardware, the DOSwriter Virtual Keyboard offers a tailored input experience optimized for retro writing. Beyond standard alpha-numeric keys, it includes specialized layout[...]
@@ -321,8 +343,12 @@ For devices without physical hardware, the DOSwriter Virtual Keyboard offers a t
 <br>
 <br>
 
+[Back to Core Concepts](#core-concepts)
+
 ### 16. Buffer and File Autosave
 DOSwriter employs a tiered data protection strategy to ensure that your writing is never lost, ranging from automatic session persistence to manual file exports and remote synchronization.
+
+[Back to Core Concepts](#core-concepts)
 
 **1. Internal Session Persistence (Auto-Save)**
 - **How it works**: Every time you switch buffers, minimize the app, or even when the device screen turns off, DOSwriter instantly saves the exact state of all 17 buffers (8 Main, 8 To-Do, 1 Scratchpa[...]
