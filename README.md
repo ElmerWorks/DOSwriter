@@ -5,8 +5,6 @@
 
 **A distraction-free, retro-inspired text editor optimized for mobile and E-ink devices.**
 
-**A distraction-free, retro-inspired text editor optimized for mobile and E-ink devices.**
-
 **DOSwriter is a minimalist Android writing environment inspired by dedicated writing devices and keyboard-centric workflows such as the Alphasmart Neo and DOS/Unix text editing tools. It is designed for fast, keyboard-driven writing with a focus on stability and simplicity. The keyboard workflow is intuitive and easy to learn. It has tools that address the problem of editing large text files on small phones and e-inks.**
 
 **DOSwriter has good screen control for emulating e-ink displays on backlit devices and has easy ergonomic color settings. It also works on B&W and color Android e-ink displays such as the Boox and the BigMe. Color themes can be set for Day/Night modes. Font size and screen brightness can be adjusted by simple keyboard controls.**
