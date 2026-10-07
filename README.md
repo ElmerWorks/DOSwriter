@@ -110,7 +110,7 @@ If this discussion interests you, I describe the DOSwriter design inspiration an
 4. **Learn the Keys**: DOSwriter is built for hardware keyboards but includes a powerful virtual layout. Press `ALT-H` anytime for the help system.
 
 ### Installation Guides
-- [Boox Installation](.[/docs/DOSwriter-Boox7-Install-Guide.pdf])
+- [Boox Installation](./docs/DOSwriter-Boox7-Install-Guide.pdf)
 
 [Back to Contents](#contents)
 
