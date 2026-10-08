@@ -111,6 +111,7 @@ If this discussion interests you, I describe the DOSwriter design inspiration an
 
 ### Installation Guides
 - [Boox Installation](./docs/DOSwriter-Boox7-Install-Guide.pdf)
+- [Motorola Moto G Power Installation](./docs/Moto-G-Power-Install-Notes.md)
 
 [Back to Contents](#contents)
 
