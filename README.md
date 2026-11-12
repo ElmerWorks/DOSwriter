@@ -1,8 +1,5 @@
 # **DOSwriter**
 
-
-<img align="right" src="images/DOSwriter-Logo.png" width="400">
-
 **A distraction-free, retro-inspired text editor optimized for mobile and E-ink devices.**
 
 **DOSwriter is a minimalist Android writing environment inspired by dedicated writing devices and keyboard-centric workflows such as the Alphasmart Neo and DOS/Unix text editing tools. It is designed for fast, keyboard-driven writing with a focus on stability and simplicity. The keyboard workflow is intuitive and easy to learn. It has tools that address the problem of editing large text files on small phones and e-inks.**
@@ -12,8 +9,6 @@
 **Other useful features are bookmarks, text collapse, file visualization tools, Markdown editing, an outline manager for project organization, a remote PC file sync tool, Vietnamese TELEX mode, and a virtual keyboard optimized for DOSwriter editing on the go.**
 
 **Use DOSwriter to capture and organize your thoughts on your Android device for later computer formatting with publishing software.**
-
-<br>
 
 ## **Download Android DOSwriter installation APK :**
 
